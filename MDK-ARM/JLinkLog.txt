@@ -1,0 +1,127 @@
+T1CA0 041:438.611   SEGGER J-Link V7.64 Log File
+T1CA0 041:438.646   DLL Compiled: Apr  1 2022 16:04:43
+T1CA0 041:438.652   Logging started @ 2023-09-11 12:03
+T1CA0 041:438.657 - 18.015ms
+T1CA0 041:438.664 JLINK_SetWarnOutHandler(...)
+T1CA0 041:438.669 - 0.007ms
+T1CA0 041:438.674 JLINK_OpenEx(...)
+T1CA0 041:439.699   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1CA0 041:440.004   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T1CA0 041:440.141   Decompressing FW timestamp took 122 us
+T1CA0 041:446.175   Hardware: V9.30
+T1CA0 041:446.194   S/N: 36310083
+T1CA0 041:446.201   OEM: SEGGER
+T1CA0 041:446.207   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T1CA0 041:447.253   TELNET listener socket opened on port 19021
+T1CA0 041:451.832   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T1CA0 041:451.957   WEBSRV Webserver running on local port 19080
+T1CA0 041:456.505 - 17.838ms returns "O.K."
+T1CA0 041:456.523 JLINK_GetEmuCaps()
+T1CA0 041:456.528 - 0.007ms returns 0xB9FF7BBF
+T1CA0 041:456.535 JLINK_TIF_GetAvailable(...)
+T1CA0 041:456.772 - 0.254ms
+T1CA0 041:456.796 JLINK_SetErrorOutHandler(...)
+T1CA0 041:456.801 - 0.007ms
+T1CA0 041:456.811 JLINK_ExecCommand("ProjectFile = "D:\javaheri\CODE\AM_DUAL_V6_STM32\MDK-ARM\JLinkSettings.ini"", ...). 
+T1CA0 041:457.217 - 0.410ms returns 0x00
+T1CA0 041:457.232 JLINK_ExecCommand("Device = STM32F030K6Tx", ...). 
+T1CA0 041:457.406   Device "STM32F030K6" selected.
+T1CA0 041:457.516 - 0.281ms returns 0x00
+T1CA0 041:457.528 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T1CA0 041:457.536 - 0.004ms returns 0x01
+T1CA0 041:457.543 JLINK_GetHardwareVersion()
+T1CA0 041:457.548 - 0.007ms returns 93000
+T1CA0 041:457.556 JLINK_GetDLLVersion()
+T1CA0 041:457.561 - 0.007ms returns 76400
+T1CA0 041:457.571 JLINK_GetOEMString(...)
+T1CA0 041:457.962 JLINK_GetFirmwareString(...)
+T1CA0 041:457.977 - 0.017ms
+T1CA0 041:457.988 JLINK_GetDLLVersion()
+T1CA0 041:457.992 - 0.007ms returns 76400
+T1CA0 041:457.999 JLINK_GetCompileDateTime()
+T1CA0 041:458.004 - 0.007ms
+T1CA0 041:458.012 JLINK_GetFirmwareString(...)
+T1CA0 041:458.016 - 0.007ms
+T1CA0 041:458.023 JLINK_GetHardwareVersion()
+T1CA0 041:458.028 - 0.007ms returns 93000
+T1CA0 041:458.035 JLINK_GetSN()
+T1CA0 041:458.040 - 0.007ms returns 36310083
+T1CA0 041:458.047 JLINK_GetOEMString(...)
+T1CA0 041:458.055 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T1CA0 041:458.831 - 0.782ms returns 0x00
+T1CA0 041:458.844 JLINK_HasError()
+T1CA0 041:458.851 JLINK_SetSpeed(5000)
+T1CA0 041:458.929 - 0.084ms
+T1CA0 041:459.197 JLINK_HasError()
+T1CA0 041:459.208 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T1CA0 041:459.213 - 0.007ms returns JLINKARM_RESET_TYPE_NORMAL
+T1CA0 041:459.220 JLINK_Reset()
+T1CA0 041:459.371   InitTarget() start
+T1CA0 041:459.382    J-Link Script File: Executing InitTarget()
+T1CA0 041:460.415   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:460.713   Error: Scanning JTAG chain failed.
+T1CA0 041:460.726   Can not attach to CPU. Trying connect under reset.
+T1CA0 041:513.176   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:513.817   Error: Scanning JTAG chain failed.
+T1CA0 041:513.878   Connecting to CPU via connect under reset failed.
+T1CA0 041:564.600   InitTarget() end
+T1CA0 041:626.530   InitTarget() start
+T1CA0 041:626.605    J-Link Script File: Executing InitTarget()
+T1CA0 041:628.581   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:629.215   Error: Scanning JTAG chain failed.
+T1CA0 041:629.289   Can not attach to CPU. Trying connect under reset.
+T1CA0 041:682.113   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:682.729   Error: Scanning JTAG chain failed.
+T1CA0 041:682.789   Connecting to CPU via connect under reset failed.
+T1CA0 041:733.491   InitTarget() end
+T1CA0 041:733.566 - 274.360ms
+T1CA0 041:733.627 JLINK_GetIdData(pIdData)
+T1CA0 041:734.084   InitTarget() start
+T1CA0 041:734.141    J-Link Script File: Executing InitTarget()
+T1CA0 041:735.951   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:736.737   Error: Scanning JTAG chain failed.
+T1CA0 041:736.798   Can not attach to CPU. Trying connect under reset.
+T1CA0 041:789.974   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:790.572   Error: Scanning JTAG chain failed.
+T1CA0 041:790.633   Connecting to CPU via connect under reset failed.
+T1CA0 041:841.436   InitTarget() end
+T1CA0 041:903.391   InitTarget() start
+T1CA0 041:903.469    J-Link Script File: Executing InitTarget()
+T1CA0 041:905.484   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:906.068   Error: Scanning JTAG chain failed.
+T1CA0 041:906.127   Can not attach to CPU. Trying connect under reset.
+T1CA0 041:958.297   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 041:958.628   Error: Scanning JTAG chain failed.
+T1CA0 041:958.650   Connecting to CPU via connect under reset failed.
+T1CA0 042:009.250   InitTarget() end
+T1CA0 042:009.291 - 275.673ms
+T1CA0 042:009.331 JLINK_GetIdData(pIdData)
+T1CA0 042:009.692   InitTarget() start
+T1CA0 042:009.732    J-Link Script File: Executing InitTarget()
+T1CA0 042:011.152   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 042:011.647   Error: Scanning JTAG chain failed.
+T1CA0 042:011.692   Can not attach to CPU. Trying connect under reset.
+T1CA0 042:064.901   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 042:065.507   Error: Scanning JTAG chain failed.
+T1CA0 042:065.569   Connecting to CPU via connect under reset failed.
+T1CA0 042:116.217   InitTarget() end
+T1CA0 042:178.234   InitTarget() start
+T1CA0 042:178.310    J-Link Script File: Executing InitTarget()
+T1CA0 042:180.333   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 042:180.908   Error: Scanning JTAG chain failed.
+T1CA0 042:180.965   Can not attach to CPU. Trying connect under reset.
+T1CA0 042:233.675   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T1CA0 042:234.287   Error: Scanning JTAG chain failed.
+T1CA0 042:234.349   Connecting to CPU via connect under reset failed.
+T1CA0 042:285.186   InitTarget() end
+T1CA0 042:285.261 - 275.944ms
+T1CA0 042:292.387 JLINK_GetFirmwareString(...)
+T1CA0 042:292.432 - 0.056ms
+T1A5C 088:955.321   
+  ***** Error: Connection to emulator lost!
+T1CA0 100:075.778 JLINK_IsOpen()
+T1CA0 100:075.799 - 0.024ms returns 0x01
+T1CA0 100:077.931 JLINK_Close()
+T1CA0 100:094.970 - 17.057ms
+T1CA0 100:094.993   
+T1CA0 100:095.000   Closed
